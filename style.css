@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #F5DB13;
+    padding: 20px;
+    display: flex;
+}
+
+.logo{
+    width: 50%;
+    height: 50px;
+    align-items: center;
+}
+
+.title{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-right: 20%;
+   
+}
+
+.h1{
+    font-size: 24px;
+    color: #212121;
+    text-align: center;
+}
+
+.h1:hover {
+
+    border-bottom: 3px solid #212121;
+}
+
+.body{
+    padding-top: 10vh;
+}
+
+.body_title{
+    font-size: 40px;
+    color: #212121;
+    text-align: center;
+    font-weight: bold;
+}
